@@ -1,8 +1,4 @@
-title:
-name:
-email:
+title: My Portfolio
+name: Bernardo Diesta
+email: bernardodiesta@gmail.com
 baseurl: "/Portfolio/"
-
-collection:
-design:
-output: true
