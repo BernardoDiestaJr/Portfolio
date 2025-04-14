@@ -1,5 +1,5 @@
 ---
-title: "Brand Identity"
+title: Brand Identity
 tools: [Photoshop, InDesign, Illustrator]
 description: "A typographic poster series exploring contrast, scale, and rhythm."
 layout: 
