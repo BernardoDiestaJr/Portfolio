@@ -22,13 +22,18 @@
 </style>
     
 <body>
-
+    
+    <header>
+        {% include header.html %}
+    </header>
+    
     {% include sidebar.html %}
 
     <h1> My Design Projects </h1>
     
-    {{ content }}
-
+    <main>
+        {{ content }}
+    </main>
 
 </body>
 </html>
