@@ -10,7 +10,7 @@ title: "Home"
     <div class="design-card">
       <h2>{{ design.title }}</h2>
       <p><strong>Tools:</strong> {{ design.tools | join: ", " }}</p>
-      <p>{{ design.description }}</p>
+      <div class="default-description"> {{ design.description }}</div>
       <a href="{{ design.url }}">View Project</a>
     </div>
   {% endfor %}
