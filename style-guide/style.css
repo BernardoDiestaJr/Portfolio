@@ -74,13 +74,34 @@ section {
 .flex-item {
     margin-right:auto;
 }
-.color-item {
+.color-item1 {
     list-style-type: none;
     display:inline-block;
     width:200px;
     height:200px;
     margin:10px;
     border:1px solid black;
+    background: #C6011F;
+}
+
+.color-item2 {
+    list-style-type: none;
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin:10px;
+    border:1px solid black;
+    background: #7FFF00;
+}
+
+.color-item3 {
+    list-style-type: none;
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin:10px;
+    border:1px solid black;
+    background: #7FFF00;
 }
 
 .logo-box{
