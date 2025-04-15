@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+.body-copy {
+    font-family: 'Roboto', sans-serif;
+}
+
 code {
     background-color: black;
     color: greenyellow;
