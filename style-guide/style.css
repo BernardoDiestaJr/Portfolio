@@ -4,6 +4,17 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+.section-title {
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: block;
+}
+
+header.flex-container {
+    border: 1px solid black;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-evenly;
@@ -12,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-copy {
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    border-top: 5px solid black;
 }
 
 code {
