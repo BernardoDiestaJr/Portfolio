@@ -4,11 +4,29 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+.logo-box:after {
+    position: absolute;
+    left: 281px;
+    top: 0px;
+    content: '';
+    border-bottom: 70px solid white;
+    border-left: 39px solid transparent;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 .section-title {
     font-size: 2em;
     border-bottom: 1px solid black;
     width: 100%;
     display: block;
+}
+
+section {
+    margin: 50px 50px;
 }
 
 header.flex-container {
