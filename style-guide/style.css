@@ -4,6 +4,12 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
 .body-copy {
     font-family: 'Roboto', sans-serif;
 }
