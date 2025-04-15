@@ -85,7 +85,7 @@ section {
 
 .logo-box{
     position:relative;
-    width:300px;
+    width: 419px;
     height:50px;
     padding:10px;
     background-color:black;
@@ -93,7 +93,7 @@ section {
 
 .logo-box:after {
     position: absolute;
-    left: 281px;
+    left: 400px;
     top: 0px;
     content: '';
     border-bottom: 70px solid white;
