@@ -16,7 +16,6 @@ text-transform: uppercase;
 }
 
 nav > ul > li {
-    background-color: black;
     display: inline;
     margin-right: 25px;
 } 
@@ -126,6 +125,14 @@ section {
     content: '';
     border-bottom: 70px solid #A1146E;
     border-left: 39px solid transparent;
+}
+
+.nav-box{
+    position:relative;
+    width: 419px;
+    height:50px;
+    padding:10px;
+    background-color:black;
 }
 
 .nav-box:after {
