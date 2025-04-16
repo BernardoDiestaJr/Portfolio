@@ -16,6 +16,7 @@ text-transform: uppercase;
 }
 
 nav > ul > li {
+    background-color:black;
     display: inline;
     margin-right: 25px;
 } 
@@ -53,7 +54,7 @@ article > header + p {
 
 code {
     background-color:black;
-    color:greenyellow;
+    color: #7FFF00;
     padding:15px;
     line-height: 42px;
 }
@@ -121,23 +122,6 @@ section {
 .logo-box:after {
     position: absolute;
     left: 400px;
-    top: 0px;
-    content: '';
-    border-bottom: 70px solid #A1146E;
-    border-left: 39px solid transparent;
-}
-
-.nav-box{
-    position:relative;
-    width: 419px;
-    height:50px;
-    padding:10px;
-    background-color:black;
-}
-
-.nav-box:after {
-    position: absolute;
-    right: 400px;
     top: 0px;
     content: '';
     border-bottom: 70px solid #A1146E;
