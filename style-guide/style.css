@@ -130,7 +130,7 @@ section {
 
 .nav-box:after {
     position: absolute;
-    left: 400px;
+    right: 400px;
     top: 0px;
     content: '';
     border-bottom: 70px solid #A1146E;
