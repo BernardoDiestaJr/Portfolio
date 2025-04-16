@@ -16,8 +16,9 @@ text-transform: uppercase;
 }
 
 nav > ul > li {
+    background-color: black;
     display: inline;
-    margin-right:25px;
+    margin-right: 25px;
 } 
 
 a {
@@ -119,6 +120,15 @@ section {
 }
 
 .logo-box:after {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    content: '';
+    border-bottom: 70px solid #A1146E;
+    border-left: 39px solid transparent;
+}
+
+.nav-box:after {
     position: absolute;
     left: 400px;
     top: 0px;
