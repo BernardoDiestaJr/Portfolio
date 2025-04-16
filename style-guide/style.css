@@ -21,6 +21,10 @@ nav > ul > li {
     margin-right: 25px;
 } 
 
+nav {
+    background-color:black;
+} 
+
 a {
     color: springgreen;
     font-size: 1.9em;
